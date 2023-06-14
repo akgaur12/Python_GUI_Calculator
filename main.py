@@ -41,4 +41,22 @@ for i in range(4):
     x = 15
     y += 65
     
-    
+#binding buttons with commands
+b[0].config(command=lambda:show('1'))
+b[1].config(command=lambda:show('2'))
+b[2].config(command=lambda:show('3'))
+b[3].config(command=lambda:show('+'))
+b[4].config(command=lambda:show('4'))
+b[5].config(command=lambda:show('5'))
+b[6].config(command=lambda:show('6'))
+b[7].config(command=lambda:show('-'))
+b[8].config(command=lambda:show('7'))
+b[9].config(command=lambda:show('8'))
+b[10].config(command=lambda:show('9'))
+b[11].config(command=lambda:show('*'))
+b[12].config(command=clear)
+b[13].config(command=lambda:show('0'))
+b[14].config(command=cal)
+b[15].config(command=lambda:show('/'))
+
+root.mainloop()
