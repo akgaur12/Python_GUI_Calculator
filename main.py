@@ -4,10 +4,27 @@ def show(s):
     if en.get()=='Error':
         clear()
     var.set(en.get()+ s)
-        
+    
 def clear():
     var.set('')
 
+def cal():
+    exp = en.get()
+    if exp == '':
+        var.set('')
+    elif exp[-1]=='+' or exp[-1]=='-' or exp[0]=='*' or exp[0]=='/' or exp[-1]=='*' or exp[-1]=='/':
+        var.set('Error')
+    elif exp[-1]=='0' and exp[-2]=='/' or exp == 'Error':
+        var.set('Error')
+    elif '*/' in exp or '/*' in exp or '+*' in exp or '-*' in exp or '+/' in exp or '-/' in exp:
+        var.set('Error') 
+    elif exp[0]=='0':
+        exp = exp[1:] 
+        var.set(eval(exp))
+    else:
+        var.set(eval(exp))
+        
+   
 #Calculator GUI Window
 root = Tk()
 root.title("Calculator")
