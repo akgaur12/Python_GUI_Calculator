@@ -1,5 +1,13 @@
 from tkinter import *
 
+def show(s):
+    if en.get()=='Error':
+        clear()
+    var.set(en.get()+ s)
+        
+def clear():
+    var.set('')
+
 #Calculator GUI Window
 root = Tk()
 root.title("Calculator")
