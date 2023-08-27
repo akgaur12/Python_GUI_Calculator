@@ -4,9 +4,9 @@
 
 ## Features
 
-- Basic arithmetic operations: Addition, subtraction, multiplication, division.
-- Clear functionality: Reset the calculator display.
-- User-friendly interface: Intuitive design and easy-to-use buttons.
+- **Basic arithmetic operations**: Addition, subtraction, multiplication, division.
+- **Clear functionality**: Reset the calculator display.
+- **User-friendly interface**: Intuitive design and easy-to-use buttons.
 
 ## Project GUI
 
