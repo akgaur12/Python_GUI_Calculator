@@ -29,6 +29,5 @@ Contributions are welcome! If you have any suggestions or improvements, please f
 
 This project is licensed under the [MIT License](LICENSE).
 
-Enjoy using and learning from the Python GUI Calculator!
 
 
